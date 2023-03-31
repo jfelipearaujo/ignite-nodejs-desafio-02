@@ -109,4 +109,27 @@ export async function mealsRoutes(app: FastifyInstance) {
 
     return reply.status(201).send()
   })
+
+  app.delete('/:id', async (request, reply) => {
+    const { sessionId } = request.cookies
+
+    const getMealSchema = z.object({
+      id: z.string().uuid(),
+    })
+
+    const { id } = getMealSchema.parse(request.params)
+
+    const meal = await knex('meals')
+      .where('user_id', sessionId)
+      .where('id', id)
+      .first()
+
+    if (meal) {
+      await knex('meals').where('user_id', sessionId).where('id', id).delete()
+
+      return reply.status(204).send()
+    }
+
+    return reply.status(404).send()
+  })
 }

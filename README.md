@@ -5,7 +5,7 @@
 - [X] Should be able to identify a user between requests
 - [X] Should be able to create a meal
 - [X] Should be able to edit a meal
-- [ ] Should be able to delete a meal
+- [X] Should be able to delete a meal
 - [X] Should be able to view all user's meals
 - [X] Should be able to view only one meal
 - [ ] Should be able to retrieve metrics from a user
