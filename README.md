@@ -7,7 +7,7 @@
 - [ ] Should be able to edit a meal
 - [ ] Should be able to delete a meal
 - [X] Should be able to view all user's meals
-- [ ] Should be able to view only one meal
+- [X] Should be able to view only one meal
 - [ ] Should be able to retrieve metrics from a user
   - [ ] Total of created meals
   - [ ] Total of meals 'on diet'
