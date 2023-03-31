@@ -41,3 +41,15 @@ Content-Type: application/json
 ###
 GET {{url}}/daily-diet/meals/9f86ebf8-6642-412e-8eb4-6f42a6b3c13f
 Content-Type: application/json
+
+###
+PUT {{url}}/daily-diet/meals/9f86ebf8-6642-412e-8eb4-6f42a6b3c13f
+Content-Type: application/json
+
+{
+    "title": "X Tudo",
+    "description": "Xis completo de salada",
+    "date": "2023-03-30",
+    "time": "16:15",
+    "isOnDiet": true
+}
