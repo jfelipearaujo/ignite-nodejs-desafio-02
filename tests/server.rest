@@ -33,3 +33,7 @@ Content-Type: application/json
     "time": "16:15",
     "isOnDiet": false
 }
+
+###
+GET {{url}}/daily-diet/meals
+Content-Type: application/json
