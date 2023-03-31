@@ -57,3 +57,7 @@ Content-Type: application/json
 ###
 DELETE {{url}}/daily-diet/meals/9f86ebf8-6642-412e-8eb4-6f42a6b3c13f
 Content-Type: application/json
+
+###
+GET {{url}}/daily-diet/meals/metrics
+Content-Type: application/json
