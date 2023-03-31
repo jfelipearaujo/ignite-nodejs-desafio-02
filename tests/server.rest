@@ -1,0 +1,10 @@
+@url=http://localhost:3333
+
+POST {{url}}/daily-diet/users
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@email.com"
+}
