@@ -2,8 +2,8 @@
 
 ## Application rules
 - [X] Should be possible to create a user
-- [ ] Should be able to identify a user between requests
-- [ ] Should be able to create a meal
+- [X] Should be able to identify a user between requests
+- [X] Should be able to create a meal
 - [ ] Should be able to edit a meal
 - [ ] Should be able to delete a meal
 - [ ] Should be able to view all user's meals

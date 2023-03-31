@@ -1,5 +1,6 @@
 @url=http://localhost:3333
 
+###
 POST {{url}}/daily-diet/users
 Content-Type: application/json
 
@@ -7,4 +8,28 @@ Content-Type: application/json
     "firstName": "John",
     "lastName": "Doe",
     "email": "john.doe@email.com"
+}
+
+###
+POST {{url}}/daily-diet/meals
+Content-Type: application/json
+
+{
+    "title": "Salada",
+    "description": "Salada básica",
+    "date": "2023-03-30",
+    "time": "12:15",
+    "isOnDiet": true
+}
+
+###
+POST {{url}}/daily-diet/meals
+Content-Type: application/json
+
+{
+    "title": "X Tudo",
+    "description": "Xis completo",
+    "date": "2023-03-30",
+    "time": "16:15",
+    "isOnDiet": false
 }
